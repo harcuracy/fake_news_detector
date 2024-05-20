@@ -3,8 +3,8 @@ from model.model_training import train_model
 from model.predict import load_model, predict_news
 
 # Paths to the datasets
-fake_path = "/content/drive/MyDrive/true_fake_news/Fake.csv"
-real_path = "/content/drive/MyDrive/true_fake_news/True.csv"
+fake_path = "/content/fake_news_detector/dataset/Fake.csv"
+real_path = "/content/fake_news_detector/dataset/True.csv"
 
 # Train the model
 train_model(fake_path, real_path)
